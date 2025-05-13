@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: linear-gradient(to bottom, #00667e, #ffffff); */
+    background-image: url(../Login/img/greg-rosenke-6QnEf_b47eA-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+main {
+    background-color: #ffffff;
+    width: 46rem;
+    height: 28rem;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2rem;
+    box-shadow: 0px 1px 20px 3px #3caac7;
+}
+
+.img {
+    width: 50%;
+    align-self: flex-end;
+    margin-right: 4rem;
+}
+
+.img img {
+    width: 100%;
+}
+
+form {
+    position: relative;
+    padding: 40px;
+    background-color: rgb(255 255 255 / 80%);
+    border-radius: 30px;
+    margin-top: 6rem;
+
+}
+
+h1 {
+    color: #3c49d5;
+    text-transform: capitalize;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+    /* font-family: 'Fasthand', cursive; */
+}
+
+.lk,
+.mo,
+.input {
+    outline: none;
+    border: none;
+    width: 250px;
+    height: 35px;
+    border-bottom: 2px solid #0094ff;
+    background: none;
+    padding: 5px;
+
+}
+
+.lk:focus,
+.mo:focus,
+.input:focus {
+    border-bottom: 2px solid #000000;
+}
+
+input {
+    margin-bottom: 2rem;
+}
+
+input[value="Sign Up"] {
+    width: 230px;
+    height: 40px;
+    border-radius: 15px;
+    background: #07f;
+    color: white;
+    border: none;
+    margin-bottom: 2rem;
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-left: 10px;
+    transition: all 0.5s ease;
+}
+
+input[value="Sign Up"]:hover {
+    color: #fff;
+    background: #3f51b5;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+label {
+    color: black;
+    font-size: 15px;
+}
+
+.message {
+    text-align: center;
+    color: red;
+    margin-bottom: 10px;
+}

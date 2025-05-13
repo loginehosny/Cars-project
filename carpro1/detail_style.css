@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;1,9..144,700&display=swap');
+
+.card p {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Libre Baskerville', serif;
+    text-transform: capitalize;
+    margin-left: 20px;
+    width: 60%;
+    overflow-wrap: break-word;
+    width: 650px;
+    font-family: 'Fraunces', serif;
+    line-height: 1.5;
+}
+
+.card {
+    background-color: whitesmoke;
+    border: 1px solid gray;
+    border-radius: 15px;
+    margin: 10px;
+    min-height: 300px;
+    box-shadow: 2px 2px 0px 3px #333;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    font-size: 30px;
+    font-family: 'Fraunces', serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card h2 {
+    text-transform: capitalize;
+    margin-left: 20px;
+    font-weight: 700;
+}
+
+.card img {
+    width: 415px;
+}
+
+.card2 img {
+    width: 200px;
+
+}
+
+h3 {
+    margin-left: 20px;
+    color: teal;
+}
+
+button {
+    display: inline-block;
+    box-shadow: 1px 1px black;
+    margin-left: 20px;
+    border-radius: 5px;
+    font-size: 24px;
+    color: teal;
+    background: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border: 2px solid teal;
+    padding: 10px;
+    width: 134px;
+    height: 50px;
+}
+
+.a1 {
+
+    display: inline-block;
+    box-shadow: 1px 1px black;
+    margin-left: 20px;
+    border-radius: 5px;
+    font-size: 24px;
+    color: teal;
+    background: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border: 2px solid teal;
+    padding: 5px;
+    width: 134px;
+    height: 35px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #ffffff, teal);
+}

@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(344deg, #2196f3, #fafafa);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.shop {
+
+    padding: 60px 60px 40px;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    justify-content: normal;
+    flex-direction: column;
+    border-radius: 22px;
+}
+
+.shop h3 {
+    text-align: center;
+    margin-top: -30px;
+    color: #1a9aff;
+    font-size: 26px;
+    margin-bottom: 25px;
+    font-family: sans-serif;
+}
+
+.shop a {
+
+    color: red;
+    text-decoration: none;
+}
+
+.shop input {
+    width: 17rem;
+    border-style: solid;
+    border-width: 1px;
+    padding: 15px;
+    box-sizing: border-box;
+    margin: 5px;
+}
+
+.shop button {
+    border-style: solid;
+    border: none;
+    padding: 14px 40px;
+    background-color: #3da8fc;
+    border-radius: 21px;
+    margin-bottom: 1rem;
+}
+
+.shop input[type=file] {
+
+    content: "Choose image for product";
+    width: 85px;
+    height: 80px;
+    /* opacity: 0; */
+    margin-right: 125px;
+    display: none;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.f {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 79%;
+    cursor: pointer;
+    height: 30px;
+    border-radius: 15px;
+    margin-left: 1.9rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.f label {
+    background-color: rgb(5 127 224 / 53%);
+    border-radius: 10px;
+    text-transform: capitalize;
+    padding: 10px;
+    line-height: 0.5;
+}
